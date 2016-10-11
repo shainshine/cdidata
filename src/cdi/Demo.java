@@ -8,7 +8,7 @@ public class Demo extends BasicAction{
 
 	public String returnStr(){
 		try {
-			String str = "{'retStr':'0','total':'8411039','dailyAvg':'7591','instant':'','daily':'8526','idsum':'243231978'}";
+			String str = "{'retStr':'0','total':'8411039','dailyAvg':'7591','instant':'','daily':'8526','idsum':'243231909'}";
 			response.reset();
 			response.setContentType("text/html;charset=UTF-8");
 			response.getWriter().println(str);
